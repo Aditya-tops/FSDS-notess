@@ -1,0 +1,384 @@
+RUNNING NOTES: 20 - NOV - 2024
+--------------------------------
+
+INDEX
+---------
+
+0. DATA SCIENCE DEMO			-	Done
+
+1. DATA SCIENCE FUNDAMENTALS		-	Done
+
+----------------------------------------------------------------
+
+PYTHON PROGRAMMING LANG
+-----------------------
+
+0. PYTHON - INSTALLATION		-	Done
+
+1. PYTHON - INTRODUCTION		-	Done
+2. PYTHON - KEYWORDS			-	Done
+3. PYTHON - HELLO WORLD PROGRAM		-	Done
+4. PYTHON - NAMING CONVENTIONS		-	Done
+5. PYTHON - VARIABLES			-	Done
+
+6. PYTHON - DATA TYPES			-	Running topic
+
+7. PYTHON - OPERATORS			-	Upcoming topic
+
+
+----------------------------------------------------------------
+
+Predefined functions
+---------------------
+
+1. print(p)		->	To display the output
+2. type(p)		->	To check the data type
+
+--------------------------------
+
+Errors
+------
+
+1. SyntaxError
+2. NameError
+3. ValueError
+
+--------------------------------
+
+6. PYTHON - DATA TYPES
+----------------------
+
+Materials	->	Admin created Google classroom
+		->	I will upload all materials
+		->	Today: 6.00 PM let me explain
+
+--------------------------------
+
+Recap
+
+DATA TYPES
+
+
+DATA	->	Collection of Facts
+Facts	->	Numbers
+	->	Alphabets
+	->	Alphanumeric etc
+
+
+DATA	->	Different types
+
+		Types
+		-----
+Humans	->	Male
+		Female
+
+--------------------------------
+
+DATA TYPES
+
+Predefined data types
+
+1. Numeric
+	int	->	A number without decimal
+	float	->	A number with decimal
+	
+2. Boolean 
+	True	->	To create flag value
+	False	->	To create flag value
+
+3. None		->	Empty variable
+
+4. Sequence	->	A variable
+		->	It can store group of values
+
+Ex
+---
+
+a = 10		->	variable, storing single value
+b = [20, 30, 40]->	variable, storing group of values
+
+--------------------------------
+
+variable == object
+
+--------------------------------
+
+Difference types of sequences
+
+	1. String/str		->	Kick intro...
+
+	2. List
+	3. Tuple
+	4. Set
+	5. Dictionary/dict
+
+	6. range 		->	end to end
+
+
+--------------------------------
+
+a = "Daniel"
+
+print(a)
+print(type(a))
+
+
+-> String: A group of characters enclosed within the double quotes
+
+--------------------------------
+
+4 Ways to create a string
+
+	->	Single quotes
+	->	Double quotes
+	->	Triple single quotes
+	->	Triple double quotes
+
+Example
+--------
+
+a = 'Naresh'
+b = "Naresh"
+c = '''Naresh'''
+d = """Naresh"""
+
+print(a)
+print(b)
+print(c)
+print(d)
+print()
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+
+
+Hold the session for few mins
+
+--------------------------------
+
+Online admin number 
+
+Mr.Naga babu--9063042468
+Mr.Prem--79979 98954
+
+--------------------------------
+
+a = 'Naresh'
+b = "Naresh"
+c = '''Naresh'''
+d = """Naresh"""
+e = """"Naresh""""	#	Invalid
+
+print(a)
+print(b)
+print(c)
+print(d)
+print()
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+
+--------------------------------
+
+			Upcoming disc...
+
+Single	quotes	->	Create single character
+Double quotes	->	Create a string
+
+Triple quotes	->	Multiline string
+
+
+--------------------------------
+
+gender = 'm'
+name = "Daniel"
+address = """S/O Jeswanth Rao
+Location: Kaikaluru
+Andhra Pradesh
+Pin Code"""
+
+print(gender)
+print(name)
+print(address)
+
+--------------------------------
+
+address = 'S/O Jeswanth Rao
+Location: Kaikaluru
+Andhra Pradesh
+Pin Code'
+
+print(address)
+
+--------------------------------
+
+from Shafeena (privately):    6:16 PM
+sir,how many words are limit for double quote
+
+there is no lenght limit :)
+
+--------------------------------
+
+list
+----
+
+-> We can create list by using square brackets
+-> List can store group of values(same/diff)
+-> Kind note: We will discuss more in LIST DATA STRUCTURE TOPIC
+
+--------------------------------
+
+a = [10, 20, 30, 40]
+
+print(a)
+print(type(a))
+
+--------------------------------
+
+a = [10, 20, 30, 40, 1.2, "Daniel"]
+
+print(a)
+print(type(a))
+
+
+--------------------------------
+
+Tuple
+-----
+
+-> We can create a tuple by using parenthesis symbol
+-> Tuple can store group of values(same/diff)
+
+--------------------------------
+
+a = (10, 20, 30, 40)
+
+print(a)
+print(type(a))
+
+--------------------------------
+
+a = (10, 20, 1.2, "Daniel")
+
+print(a)
+print(type(a))
+
+
+--------------------------------
+
+set
+---
+
+-> We can create set by using curly braces
+-> set can store group of values(same/diff)
+
+a = {10, 20, 30, 40}
+
+print(a)
+print(type(a))
+
+--------------------------------
+
+Summary
+
+	list	->	[]
+	tuple	->	()
+	set	->	{}
+
+
+--------------------------------
+
+list	->	2%
+
+		98%	Separate chapters
+			Two sessions
+
+
+--------------------------------
+
+Dictionary
+----------
+
+-> We can create dictionary by using curly braces
+-> Sometimes I would like to store the data like 
+	Key-Value pair
+   then we can use dictionary.
+
+MCA	->	2010
+	->	2007
+
+Monday
+
+	LHS		RHS
+	Key		Value
+
+	Student ID	Student Name
+	----------------------------
+
+	101		Daniel
+	102		Uday
+	103		Neelima
+
+--------------------------------
+
+
+d = {101: "Daniel", 102: "Uday", 103: "Neelima"}
+
+print(d)
+print(type(d))
+
+--------------------------------
+
+Python	->	Dictionary
+Java	->	Collection
+			Map, HashMap
+
+
+--------------------------------
+
+range data type
+
+Next session :)
+
+--------------------------------
+
+Daily
+-----
+
+1. Running notes				->	Sharing
+2. Materials (PDF format)			->	Sharing
+
+We are sharing by using 			->	Google classroom
+
+
+----------------------------------------------------------------	
+
+
+Trainer mail id:
+----------------
+
+danielgenai77@gmail.com
+
+Please install:	AnyDesk
+
+Lab mentors:	offline/online
+
+Sub:	5.30 PM
+
+Explain : Ask a question
+
+
+----------------------------------------------------------------	
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------	

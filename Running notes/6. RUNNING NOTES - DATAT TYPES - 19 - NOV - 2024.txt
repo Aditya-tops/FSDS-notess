@@ -1,0 +1,440 @@
+RUNNING NOTES: 19 - NOV - 2024
+--------------------------------
+
+INDEX
+---------
+
+0. DATA SCIENCE DEMO			-	Done
+
+1. DATA SCIENCE FUNDAMENTALS		-	Done
+
+----------------------------------------------------------------
+
+PYTHON PROGRAMMING LANG
+-----------------------
+
+0. PYTHON - INSTALLATION		-	Done
+
+1. PYTHON - INTRODUCTION		-	Done
+2. PYTHON - KEYWORDS			-	Done
+3. PYTHON - HELLO WORLD PROGRAM		-	Done
+4. PYTHON - NAMING CONVENTIONS		-	Done
+
+5. PYTHON - VARIABLES			-	Done
+
+6. PYTHON - DATA TYPES			-	Running topic
+
+
+----------------------------------------------------------------
+
+Predefined functions
+---------------------
+
+1. print(p)		->	To display the output
+2. type(p)		->	To check the data type
+
+--------------------------------
+
+Errors
+------
+
+1. SyntaxError
+2. NameError
+3. ValueError
+
+--------------------------------
+
+6. PYTHON - DATA TYPES
+----------------------
+
+a = 10		
+b = 1.2
+c = "Daniel"
+
+Name of the variables	->	a, b, c
+Value of the variables	->	10, 1.2, "Daniel"
+
+						Data types
+						
+Types of variables	->	10 		- integer
+				1.2 		- float
+				"Daniel" 	- str
+
+----------------------
+
+emp_id = 101
+name = "Daniel"
+salary = 10000.36
+
+print("My emp id is:", emp_id)
+print("My name is:", name)
+print("My salary is:", salary)
+print()
+print("emp_id data type is:", type(emp_id))
+print("name data type is:", type(name))
+print("salary data type is:", type(salary))
+
+----------------------
+
+type(p)
+
+-> Predefined function
+-> We can check data type of variables
+
+----------------------
+
+a = 10
+b = 20
+
+print(a, b)
+print(type(a))
+print(type(b))
+
+----------------------
+
+Two types of Data types
+
+	1. Builtin data types/Pre-defined data types
+	2. User defined data types
+
+----------------------
+
+1. Builtin data types
+
+Numeric
+-------
+	1. int
+	2. float
+
+
+1. int
+------
+
+-> Its a number without decimal
+
+age = 16		number without decimal	==	int
+salary = 10000.36	number with decimal	==	float
+
+
+
+----------------------
+
+a = 99
+
+print(a)
+print(type(a))
+
+
+----------------------
+
+a = 99999999999999999
+
+print(a)
+print(type(a))
+
+Notes:
+------
+
+a		->	Name of the variable
+print(p)	->	Predefined function
+type(p)		->	Predefined function
+
+----------------------
+
+salary = 10000.36
+
+print(salary)
+print(type(salary))
+
+----------------------
+
+Numeric
+	1. integer	->	int
+	2. floating	->	float
+
+----------------------
+
+boolean data type
+
+6th std
+
+School	->	Is math faculty came  or not
+	->	Either yes or not
+
+	->	Yes	==	True
+	->	No	==	False
+
+
+10	integer
+1.2	floating
+
+True	boolean value
+
+----------------------
+
+a = True
+b = False
+
+print(a)
+print(b)
+print()
+print(type(a))
+print(type(b))
+
+----------------------
+
+a = True		#	boolean data type
+b = "True"		#	string data type
+
+print(a)
+print(b)
+
+----------------------
+
+Data	==	Collection of facts
+
+Facts	==	Numbers
+			with decimal	float
+			without decimal	int
+
+Veg	=>	1 kg
+
+Gold 	=>	1.10
+
+----------------------
+
+In python
+
+	True	==	1
+	False	==	0
+
+----------------------
+
+a = True
+b = False
+
+print(a + a)
+
+----------------------
+
+Boolean data type having ONLY TWO VALUES
+
+integer	->	10, 20, 30, 40, ....... no limit
+
+boolean	->	Either True or False
+
+----------------------
+
+from Subham Patro (privately):    6:11 PM
+sir can you try with other Alphabates?
+
+a = True	->	Valid
+
+a = true	->	Invalid
+
+----------------------
+
+a = subham
+
+print(a)
+
+----------------------
+
+Data types
+-----------
+
+Numeric
+	int
+	float
+
+Boolean
+	True
+	False
+
+None data type
+	IMP interview question :)
+
+----------------------
+
+a = 10
+b = 1.23
+c = None
+
+print(a)
+print(b)
+print(c)
+print()
+print(type(a))
+print(type(b))
+print(type(c))
+
+----------------------
+
+a = None
+a = 10
+
+print(a)
+
+----------------------
+
+kid_name = None
+kid_name = "Jr.Daniel"
+
+print(kid_name)
+
+----------------------
+
+a = None
+print(a)
+print(type(a))
+
+
+
+How many variables	->	1
+How many keywords	->	1
+How many functions	->	2
+
+
+a	->	Name of the variable
+None	->	keyword
+print()	->	function
+type()	->	function
+
+----------------------
+
+Recap
+-----
+
+Numeric
+	int
+	float
+boolean
+	True
+	False
+
+None data type
+	None
+
+sequence
+	?
+	?
+	?...
+	
+----------------------	
+	
+from Sreeja Deshpande (privately):    6:27 PM
+sir what is difference between string and char?
+
+Ans:
+
+char	->	single characters	->	string
+string	->	Group of characters	->	String
+
+
+gender = "m"
+name = "Daniel"
+
+print(gender)
+print(name)
+
+----------------------	
+
+from nageswararao to all panelists:    6:27 PM
+none or None is both r same
+
+Ans:
+
+In python both are not same
+
+a = None	->	valid
+b = none	->	Invalid: NameError
+	
+----------------------	
+
+sequence
+
+-> It is a variable
+-> It can store GROUP OF VALUES
+
+a = 10				variable store single val
+b = 1.23			variable store single val
+c = [10, 20, 30, 40, 50, 60]	variable store group of vals
+
+----------------------	
+
+a = 10
+b = 1.23
+c = [10, 20, 30, 40]
+
+print(a)
+print(b)
+print(c)
+print()
+print(type(a))
+print(type(b))
+print(type(c))
+
+----------------------	
+
+Good website
+
+https://pythontutor.com/render.html#mode=display
+
+----------------------	
+
+4. Sequences in Python
+
+	1. string/str
+
+	2. list
+	3. tuple
+	4. set
+	5. dictionary
+
+	6. range 
+
+----------------------	
+
+1. string/str
+
+	Next session :)
+
+
+--------------------------------
+
+Daily
+-----
+
+1. Running notes				->	Sharing
+2. Materials (PDF format)			->	Sharing
+
+We are sharing by using 			->	Google classroom
+
+
+----------------------------------------------------------------	
+
+
+Trainer mail id:
+----------------
+
+danielgenai77@gmail.com
+
+Sending
+
+Sub:	5.30 PM
+
+Explain : Ask a question
+
+
+----------------------------------------------------------------	
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------	

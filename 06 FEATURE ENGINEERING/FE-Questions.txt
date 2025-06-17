@@ -1,0 +1,6 @@
+Questions
+
+1. Write all error names?
+2. Explain about return keyword?
+3. Explain about class, constructor, object, Instance variable & Instance method with example
+4. Explain about list comprehension with example
